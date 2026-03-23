@@ -46,19 +46,21 @@ Replace the `## Companies` section in `README.md` with entries for every discove
 
 Each company entry MUST follow this exact format:
 
-```markdown
+````markdown
 ### [Company Name](./<directory-name>)
 
-> `npx companies.sh add paperclipai/companies/<directory-name>`
+```bash
+npx companies.sh add paperclipai/companies/<directory-name>
+```
 
 <One-sentence description from COMPANY.md body. Keep it concise — one to two sentences max.> Built from [upstream name](upstream-url).
 
 ![Company Name Org Chart](./<directory-name>/images/org-chart.png)
 
-> **Agents (N):** Agent One, Agent Two, Agent Three
+> **Agents (N):** Agent One, Agent Two, Agent Three (limit to 25 "and N more")
 >
-> **Skills (N):** skill-one, skill-two, skill-three
-```
+> **Skills (N):** skill-one, skill-two, skill-three (limit to 25 "and N more")
+````
 
 Rules:
 
