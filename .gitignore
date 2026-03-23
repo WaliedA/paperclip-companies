@@ -1,7 +1,8 @@
 .DS_Store
-.claude/
-.agents/skills/paperclip
-.agents/skills/paperclip-create-agent
-.agents/skills/paperclip-create-plugin
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/company-creator
+.agents/skills/paperclip*
 .agents/skills/para-memory-files
 .paperclip/
