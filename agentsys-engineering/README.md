@@ -47,7 +47,7 @@
 ## Getting Started
 
 ```bash
-pnpm paperclipai company import this-github-url-or-folder
+npx paperclipai company import this-github-url-or-folder
 ```
 
 See [Paperclip](https://paperclip.ing) for more information.
